@@ -1,0 +1,9 @@
+.Links>a {
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.Links .active {
+    color: red;
+    text-decoration: underline;
+}

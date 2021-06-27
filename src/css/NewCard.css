@@ -1,0 +1,33 @@
+.NewCard {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    padding: 18px;
+    min-width: 175px;
+    margin-right: 40px;
+    display: inline;
+    position: relative;
+}
+
+
+.NewCard .invisible {
+    display: none;
+}
+
+.NewCard .messageErr {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    left: 25%;
+    top: 22px;
+}
+
+.NewCard li {
+    position: relative;
+}
+
+.NewCard .newButton {
+    width: 88px;
+    margin-top: 30px;
+}
